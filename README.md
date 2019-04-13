@@ -6,10 +6,10 @@ Requirements
 --------
 PHP 5.4.0
 
-Example
+Examples
 --------
 
-## Test Connection
+### Test Connection
 ```php
 include('./Helcim.php');
 
@@ -24,7 +24,7 @@ $helcim = new Helcim($accountId, $apiToken, array(
 print_r($helcim->misc->testConnection()->getData());
 ```
 
-## Process Purchase
+### Process Purchase
 ```php
 include('./Helcim.php');
 
@@ -44,7 +44,7 @@ $cardCVV = 100;
 print_r($helcim->payments->card->purchase($amount, $cardNumber, $cardExpiry, $cardCVV)->getData());
 ```
 
-## Fetch Customer
+### Fetch Customer
 ```php
 include('./Helcim.php');
 
@@ -61,7 +61,7 @@ $customerCode = 'CST1001';
 print_r($helcim->customers->fetchCustomer($customerCode)->getData());
 ```
 
-## View Order
+### View Order
 ```php
 include('./Helcim.php');
 
