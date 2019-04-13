@@ -79,5 +79,5 @@ print_r($helcim->customers->viewOrder($orderNumber)->getData());
 ```
 
 ## Helcim Commerce API Documentation
-Helcim did a amazing job documenting there api. You can find all the documentation from the link I provided above. I also provided references to all the actions/transactionTypes in the comments of the code.
+Helcim did a amazing job documenting their api. You can find all the documentation from the link I provided above. I also provided references to all the actions/transactionTypes in the comments of the code.
 
