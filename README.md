@@ -1,6 +1,6 @@
 PHP library Helcim Commerce API
 =============
-This library provides convenient wrapper functions for Helcim Commerce REST API. The API is documented here.
+This library provides convenient wrapper functions for Helcim Commerce REST API. The API is [documented here](https://www.helcim.com/support/article/625-helcim-commerce-api-api-overview/)
 
 Requirements
 --------
@@ -79,5 +79,5 @@ print_r($helcim->customers->viewOrder($orderNumber)->getData());
 ```
 
 ## Helcim Commerce API Documentation
-Helcim did a amazing job documenting there api. You can find all the documentation here and I also provided references to all the actions/transactionTypes in the comments of the code.
-https://www.helcim.com/support/article/625-helcim-commerce-api-api-overview/
+Helcim did a amazing job documenting there api. You can find all the documentation from the link I provided above. I also provided references to all the actions/transactionTypes in the comments of the code.
+
